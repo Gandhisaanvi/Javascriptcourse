@@ -18,7 +18,7 @@ var courses =
     return`${this.name} has enrolled into ${this.coursesenrolled.length}`
    }
 ,
-    courseinfo: function()
+    courseinfo: function()//returning whole data present 
     {
        return`${console.table( courses)}`
     }
